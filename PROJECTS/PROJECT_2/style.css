@@ -1,11 +1,11 @@
-body{
+/* body{
     height: 100%;
-    width: 100%;
-}
+    width: 100%
+} */
 
 nav{
-    width: 100%;
-    height: 50%;
+    width: 100vw;
+    height: 5vw;
     /* background-color: rgb(205, 106, 106); */
     color: aqua;
     text-align: center;
@@ -20,7 +20,7 @@ nav a {
 
 .container{
     position: absolute;
-    width: 100%;
+    width: 100vw;
     text-align: center;
     /* background-color: red; */
 }
@@ -30,7 +30,34 @@ nav a {
 }
 
 .container form{
-    margin: 0vw 20vw 0vw 20vw;
-    position: relative;
+    margin: 5vw 20vw 5vw 20vw;
+    /* position: relative; */
+    height: 25vw;
     background-color:bisque;
+}
+
+.container #guide{
+    margin: 2vw 20vw 0vw 20vw;
+}
+
+#result{
+    margin: 1vw 24vw 0vw 24vw;
+    /* margin: auto; */
+    /* position: absolute; */
+    background: #fff;
+    border: 0.1vw solid black;
+    border-radius: 1vw;
+    width: 12vw;
+    height: 3vw;
+}
+
+#report{
+    margin: 1vw 24vw 0vw 24vw;
+    /* margin: auto; */
+    /* position: absolute; */
+    background: #fff;
+    border: 0.1vw solid black;
+    border-radius: 1vw;
+    width: 12vw;
+    height: 3vw;
 }
