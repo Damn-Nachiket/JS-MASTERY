@@ -26,14 +26,14 @@ nav a {
 }
 
 .canvas h1{
-    color : #e74c3c;
+    color : #000000;
 }
 
-.canvas span {
+/* .canvas span {
     background: -webkit-linear-gradient(left, #5c8c6e, #563bb8);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
+} */
 
 .canvas #powderblue{
     display: inline-block;
