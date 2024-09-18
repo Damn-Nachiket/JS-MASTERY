@@ -1,0 +1,35 @@
+body{
+    background-color: #212121;
+    color: #fff;
+}
+
+nav{
+    width: 97.5vw;
+    height: 50%;
+    color: aqua;
+    text-align: center;
+    /* background-color: red; */
+}
+
+nav a {
+    color :teal;
+    text-decoration: none;
+    font-size : 2vw;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.center{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+#clock{
+    font-size: 2vw;
+    background-color: #b8860b;
+    padding: 2vw 2vw;
+    margin: 1vw 40vw 0vw 40vw;
+    border-radius: 1vw;
+}
