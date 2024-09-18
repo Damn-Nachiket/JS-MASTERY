@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compitable" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Digital Clock</title>
+</head>
+<body>
+    <nav>
+        <button> <a href="/" aria-current="page">Home</a> </button>
+        <button> <a target="_blank" href="https://wikipedia.com"> Wikipedia Page </a> </button>
+    </nav>
+
+    <div id="wrapper">
+            <h1> Number Guessing Game</h1>
+        <p> Try and Guess a random number between 1 and 100.</p>
+        <p> You have 10 attempts to guess the right number.</p>
+        <br/>
+
+        <form class="form">
+            <label for="guessNum" id="guess"> Guess The Number </label>
+            <input type="text" id="guessNum" class="guessNum"> <br/>
+            <input type="submit" id="sub" class="sub" value="Submit Guess">
+        </form>
+
+        <div class="resultParas">
+            <p> Previous Guesses : <span class="pguess"></span></p>
+            <p> Guess Remain : <span class="rguess">10</span></p>
+            <p class="LowOrHigh"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
